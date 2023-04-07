@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: unset;
+    padding: unset;
+}
+
+body {
+    text-align: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+.btn {
+    padding: 1.5rem;
+}
