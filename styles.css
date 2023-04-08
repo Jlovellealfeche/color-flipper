@@ -8,18 +8,53 @@
 
 body {
     text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2rem;
+    
 }
 
 h4 {
     display: none;
 }
 
-nav li {
+nav,
+ li, 
+ a {
+   
     list-style: none;
     text-decoration: none;
-    display: inline-flex;
+    text-transform: capitalize;
+    
+    
+    
 }
 
+li {
+    background-color: whitesmoke;
+    margin-top: .5rem;
+    display: inline-flex;
+    justify-content: center;
+    
+    padding: 1rem;
+    border: 2px grey solid;
+    justify-content: space-around;
+    border-radius: .5rem;
+
+    font-size: 2rem;
+}
 .btn {
+    color: rgb(110, 110, 184);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-top: 2rem;
     padding: 1.5rem;
+    border-style: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: 5px 4px 13px 1px #d3d6d6ab;
+}
+
+.btn:active {
+    background-color: rgb(182, 189, 124);
 }
