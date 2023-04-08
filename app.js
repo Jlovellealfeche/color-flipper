@@ -9,7 +9,7 @@ const color =  document.querySelector(".color");
     //the first task is to target background to change color once the button is clicked
 btn.addEventListener('click', function() {
    //1. console.log(document.body); this is to check if the button is clicked the body element will be logged into the console.
-   // 2. the goal is to get random number between 0-5 color[4] 
+   // 2. the goal is to get random number between 0-4 color[3] 
    const randomNumber = getRandomNumber(); //6. now invoke it here replace the 4 with randomNumber = getRandomNumber()
     console.log(randomNumber);             //7. Since we wanted to show which values we are getting we can log randomNumber in the console
    document.body.style.backgroundColor = colors[randomNumber];
