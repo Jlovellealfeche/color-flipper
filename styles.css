@@ -10,8 +10,14 @@ body {
     text-align: center;
 }
 
+h4 {
+    display: none;
+}
+
 nav li {
     list-style: none;
+    text-decoration: none;
+    display: inline-flex;
 }
 
 .btn {
