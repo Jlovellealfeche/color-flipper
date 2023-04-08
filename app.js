@@ -18,13 +18,16 @@ btn.addEventListener('click', function() {
 //3. now we need to generate a random number from our color[array], so we need to make another function
 
 function getRandomNumber() { // 4. dont accept any parameters in getRandomNumber
-        return Math.random() * colors.length;                        /*5. but we can return a function using Math.random()method then invoke it
+        return Math.floor(Math.random() * colors.length);                        /*5. but we can return a function using Math.random()method then invoke it
                                                     Note: with math.random we are always getting numbers from 0-1 eg. 0.556, 0.99, etc*/
+                                                   /*8. since it is like this we wont be able to get the number until 3 so we could
+                                                    multiply it with the length of the array colors.lenth*/
+                                                /*9. But the number values doesnt go up until the last array in our case the 5. It only 
+                                                gives us 4.699, 4.7...etc so in order to reach the value we will add another math method
+                                                math.floor that will round it to the nearest integer*/
 
 }
 
 
 
 
-
-//13:37 to be continued
